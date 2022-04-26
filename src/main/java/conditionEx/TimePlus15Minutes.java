@@ -12,9 +12,9 @@ public class TimePlus15Minutes {
         int newHour = time / 60;
         int newMin = time % 60;
 
-        if(newHour > 23){
+        if (newHour > 23) {
             newHour = 0;
         }
-        System.out.printf("%d:%02d",newHour,newMin);
+        System.out.printf("%d:%02d", newHour, newMin);
     }
 }

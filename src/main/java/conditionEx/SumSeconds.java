@@ -14,7 +14,7 @@ public class SumSeconds {
         int allTime = firstTime + secondTime + thirdTime;
         int minute = allTime / 60;
         int seconds = allTime % 60;
-        System.out.printf("%d:%02d",minute,seconds);
+        System.out.printf("%d:%02d", minute, seconds);
 
      /*   if(seconds < 10){
             System.out.printf("%d:0%d",minute,seconds);

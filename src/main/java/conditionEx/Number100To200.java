@@ -8,11 +8,11 @@ public class Number100To200 {
 
         int number = Integer.parseInt(scanner.nextLine());
 
-        if(number < 100){
+        if (number < 100) {
             System.out.println("Less than 100");
-        }else if(number <= 200){
+        } else if (number <= 200) {
             System.out.println("Between 100 and 200");
-        }else{
+        } else {
             System.out.println("Greater than 200");
         }
     }
