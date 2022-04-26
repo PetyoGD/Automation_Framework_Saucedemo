@@ -17,7 +17,7 @@ public class ToyShop {
         Double disPrice;
         Double postnumberDiscount;
 
-        if(numberToys >= 50){
+        if (numberToys >= 50) {
             disPrice = prePrice * 0.25;
             prePrice = prePrice - disPrice;
         }
@@ -27,10 +27,10 @@ public class ToyShop {
         Double moneyLeft = finalIncome - excursion;
         Double moneyNeeded = excursion - finalIncome;
 
-        if(finalIncome >= excursion){
-            System.out.printf("Yes! %.2f lv left.",moneyLeft);
-        }else{
-            System.out.printf("Not enough money! %.2f lv needed.",moneyNeeded);
+        if (finalIncome >= excursion) {
+            System.out.printf("Yes! %.2f lv left.", moneyLeft);
+        } else {
+            System.out.printf("Not enough money! %.2f lv needed.", moneyNeeded);
         }
     }
 }
