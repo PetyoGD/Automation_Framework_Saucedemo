@@ -1,4 +1,4 @@
-package forLoopEx;
+package cnditionAdvancedEx.forLoopEx;
 
 import java.util.Scanner;
 

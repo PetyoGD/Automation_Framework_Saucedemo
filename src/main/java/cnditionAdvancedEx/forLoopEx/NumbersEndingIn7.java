@@ -1,4 +1,4 @@
-package forLoopEx;
+package cnditionAdvancedEx.forLoopEx;
 
 public class NumbersEndingIn7 {
     public static void main(String[] args) {

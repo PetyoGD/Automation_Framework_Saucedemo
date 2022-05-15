@@ -1,13 +1,16 @@
-package forLoopEx;
+package whileLoop;
 
 import java.util.Scanner;
 
-public class Number1ToN_3 {
+public class Sequence2k {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = Integer.parseInt(scanner.nextLine());
-        for (int i = 1; i <= n; i += 3) {
-            System.out.println(i);
+
+        int k = 1;
+        while (k <= n) {
+            System.out.println(k);
+            k = 2 * k + 1;
         }
     }
 }
